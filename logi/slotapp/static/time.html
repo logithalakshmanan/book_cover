@@ -1,0 +1,189 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Timetable</title>
+    <link rel="icon" href="sec.png">
+    <style>
+
+    body {
+        background-image: url("bg.jpg"); 
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 6px solid rgb(190, 111, 150);
+        width: 95%;                /* PERFECT FIT - NO SCROLL */
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    th, td {
+        border: 2px solid black;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    th {
+        background-color: rgb(151, 145, 169);
+        font-weight: bold;
+    }
+
+    /* SUBJECT COLORS */
+    .fwad { background-color: #e3f0ff; font-weight: bold; }
+    .english { background-color: #ffe9e3; font-weight: bold; }
+    .python { background-color: #e8ffe6; font-weight: bold; }
+    .free { background-color: #f4f4f4; font-weight: bold; color: #666; }
+    .mentor { background-color: #fff7d6; font-weight: bold; }
+
+    /* DAY COLOR (LEFT COLUMN) */
+    .day {
+        background-color: #fce4ff;   /* light pink */
+        font-weight: bold;
+    }
+
+    .vertical-word {
+        background-color: rgba(111, 109, 149, 0.85);
+        font-weight: bolder;
+        text-align: center;
+        vertical-align: middle;
+        width: 50px;
+        font-size: 18px;
+    }
+
+    .vertical-word span {
+        display: block;
+        line-height: 1.6;
+    }
+
+    h2, h3 {
+        text-align: center;
+        margin: 6px;
+    }
+
+    .header-logo {
+        width: 55%;
+        height: 20%;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div style="text-align: center; margin: 10px 0;">
+    <img src="/static/logo.png">
+    </div>
+
+    <h2>SAVEETHA ENGINEERING COLLEGE</h2>
+    <h3>SLOT TIME TABLE - <span style="color:rgb(189, 67, 83)">LOGITHA L (25007469)</span></h3>
+
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th>8:00–10:00</th>
+            <th>10:00–12:00</th>
+
+            <th class="vertical-word" rowspan="7">
+                <span>L</span>
+                <span>U</span>
+                <span>N</span>
+                <span>C</span>
+                <span>H</span>
+            </th>
+
+            <th>1:00–3:00</th>
+            <th>3:00–5:00</th>
+        </tr>
+
+        <tr>
+            <td class="day">Monday</td>
+            <td class="fwad">FWAD</td>
+            <td class="english">ENGLISH</td>
+            <td class="fwad">FWAD</td>
+            <td class="free">FREE SLOT</td>
+        </tr>
+
+        <tr>
+            <td class="day">Tuesday</td>
+            <td class="fwad">FWAD</td>
+            <td class="python">PYTHON</td>
+            <td class="free">FREE SLOT</td>
+            <td class="python">PYTHON</td>
+        </tr>
+
+        <tr>
+            <td class="day">Wednesday</td>
+            <td class="fwad">FWAD</td>
+            <td class="free">FREE SLOT</td>
+            <td class="mentor">MENTOR MEET</td>
+            <td class="python">PYTHON</td>
+        </tr>
+
+        <tr>
+            <td class="day">Thursday</td>
+            <td class="free">FREE SLOT</td>
+            <td class="free">FREE SLOT</td>
+            <td class="free">FREE SLOT</td>
+            <td class="python">PYTHON</td>
+        </tr>
+
+        <tr>
+            <td class="day">Friday</td>
+            <td class="free">FREE SLOT</td>
+            <td class="english">ENGLISH</td>
+            <td class="fwad">FWAD</td>
+            <td class="free">FREE SLOT</td>
+        </tr>
+
+        <tr>
+            <td class="day">Saturday</td>
+            <td class="python">PYTHON</td>
+            <td class="english">ENGLISH</td>
+            <td class="english">ENGLISH</td>
+            <td class="free">FREE SLOT</td>
+        </tr>
+
+    </table>
+
+    <h3></h3>
+
+    <table>
+        <tr>
+            <th>S.NO</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+        </tr>
+
+        <tr class="fwad">
+            <td>1</td>
+            <td>19AI414</td>
+            <td>Fundamentals of Web Application Development (FWAD)</td>
+        </tr>
+
+      
+      
+        <tr class="python">
+            <td>2</td>
+            <td>19AI301</td>
+            <td>Python Programming</td>
+        </tr>
+
+        <tr class="english">
+            <td>3</td>
+            <td>19EN101</td>
+            <td>Communicative English (ENGLISH)</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+
+
