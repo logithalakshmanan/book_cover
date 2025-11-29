@@ -161,7 +161,7 @@ Execute the program using runserver command.
 </html>
 '''
 # OUTPUT
-![alt text](image.png)
+[alt text](image.png)
 
 
 
